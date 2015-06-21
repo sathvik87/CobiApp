@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BikeManager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="small_unit"> 0.0</string>
+    <string name="ascent_label">ASCENT</string>
+    <string name="ascent_val">-24%</string>
+    <string name="temperature_label">TEMP</string>
+    <string name="temperature_val">10</string>
+    <string name="km">KM</string>
+    <string name="kmph">KMPH</string>
+    <string name="turn_right">TURN RIGHT</string>
+    <string name="meter">METER</string>
+    <string name="street">MAIN STR</string>
+
+</resources>
