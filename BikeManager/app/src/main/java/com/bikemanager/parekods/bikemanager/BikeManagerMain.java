@@ -1,8 +1,8 @@
 package com.bikemanager.parekods.bikemanager;
 /**
  * @Author Sathvik Parekodi
- *
  */
+
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

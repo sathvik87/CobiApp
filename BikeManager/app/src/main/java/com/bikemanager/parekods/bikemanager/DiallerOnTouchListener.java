@@ -19,9 +19,9 @@ public class DiallerOnTouchListener implements View.OnTouchListener {
     private ImageView dialer;
 
     private TextView speedView;
-    double currentAngle;
+    private double currentAngle;
 
-    int rotateCount= 0;
+    private int rotateCount = 0;
 
     public DiallerOnTouchListener(TextView speedView) {
         this.speedView = speedView;
@@ -96,12 +96,12 @@ public class DiallerOnTouchListener implements View.OnTouchListener {
      */
     private void rotateDialer(float degrees) {
 
-        rotateCount ++;
+        rotateCount++;
         matrix.postRotate(degrees, dialerWidth / 2, dialerHeight / 2);
         dialer.setImageMatrix(matrix);
 
-        if(speedView != null) {
-            speedView.setText(""+ rotateCount);
+        if (speedView != null) {
+            speedView.setText("" + rotateCount);
         }
 
     }
